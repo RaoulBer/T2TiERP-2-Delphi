@@ -1,258 +1,74 @@
-<html>
-<div class="bloco">
-                    <div class="titulo_bloco">
-                        <h1>T2Ti ERP 2.0 - Delphi</h1>
-                    </div>
-  Aqui é possível baixar o código fonte do Projeto T2Ti ERP 2.0 em Delphi. 
-  Este treinamento formou milhares de desenvolvedores no Brasil e ajudou centenas deles a lançar seu próprio 
-  ERP no mercado. Mais informações sobre o treinamento podem ser encontradas no seguinte link: http://t2ti.com/erp2/. 
-	<br /><br />	
-  <i>
-  [Here it is possible to download the source code of the Project T2Ti ERP 2.0 in Delphi. This training was made by thousands of developers in Brazil and helped hundreds of them launch their own ERP in the market. More information about the training can be found at the following link: http://t2ti.com/erp2/.]
-  </i>	
-                    <hr />
-                    <img src="http://t2ti.com/images/erp/t2ti_erp_2.jpg" />
-                    <br />              
-                    <h3>Bloco Administrativo</h3> 
-                        <table width="100%" >
-                            <tr>
-                                <td>
-                                <b>O Bloco Administrativo é formado por cinco módulos: </b>
-                                    <ul>
-                                        <li>
-                                            <b>Cadastros Base:</b> engloba os cadastros que são usados por diversos módulos do ERP.
-                                        </li>
-                                        <li>
-                                            <b> GED - Gestão Eletrônica de Documentos </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/GED.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo GED</a>
-                                        </li>
-                                        <li>
-                                            <b> Gerador de Etiquetas </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/GeradorEtiquetas.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gerador de Etiquetas</a>
-                                        </li>
-                                        <li>
-                                            <b> Agenda Corporativa </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/AgendaCorporativa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Agenda Corporativa</a>
-                                        </li>
-                                        <li>
-                                            <b> BI - Business Intelligence </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/BI.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo BI - Business Intelligence</a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <hr />
-                    <h3>Bloco Comercial</h3> 
-                        <table width="100%">
-                            <tr>
-                                <td>
-                                <b>O Bloco Comercial é formado por dez módulos: </b>
-                                    <ul>
-                                        <li>
-                                            <b> Frente de Caixa </b> <br />
-                                            <ul>
-                                                <li>PAF-ECF</li>
-                                                <li>NFC-e</li>
-                                                <li>SAT Fiscal</li>
-                                            </ul>
-                                            <a href="http://t2ti.com/erp2/artigos/FrenteCaixa.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Frente de Caixa</a>
-                                        </li>
-                                        <li>
-                                        <b>     Vendas </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Vendas</a>
-                                        </li>
-                                        <li>
-                                        <b>     Loja Virtual - B2C </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Loja Virtual - B2C</a>
-                                        </li>
-                                        <li>
-                                        <b>     Ordem de Serviço </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/OrdemServico.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ordem de Serviço</a>
-                                        </li>
-                                        <li>
-                                        <b>     Nota Fiscal Eletrônica - NF-e </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NF-e</a>
-                                        </li>
-                                        <li>
-                                        <b>     Nota Fiscal Eletrônica de Serviços - NFS-e </b> <br />
-                                            <a href="http://t2ti.comhttp://t2ti.com/erp2/artigos/NF-e_NFS-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo NFS-e</a>
-                                        </li>
-                                        <li>
-                                        <b>     Conhecimento Eletrônico de Transporte - CT-e </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/CT-e.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CT-e</a>
-                                        </li>
-                                        <li>
-                                        <b>     CRM </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo CRM</a>
-                                        </li>
-                                        <li>
-                                        <b>     Gestão de Comissões </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/VendasLojaVirtualComissoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Comissões</a>
-                                        </li>
-                                        <li>
-                                        <b>     AFV - Automação de Força de Vendas</b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/CRM_AFV.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo AFV</a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <hr />
-                    <h3>Bloco Financeiro</h3> 
-                        <table width="100%" >
-                            <tr>
-                                <td>
-                                <b>O Bloco Financeiro é formado por sete módulos: </b>
-                                    <ul>
-                                        <li>
-                                            <b>Contas a Pagar </b>
-                                        </li>
-                                        <li>
-                                            <b>Contas a Receber</b>
-                                        </li>
-                                        <li>
-                                            <b>Controle de Caixa e Bancos   </b>
-                                        </li>
-                                        <li>
-                                            <b>Tesouraria</b>
-                                        </li>
-                                        <li>
-                                            <b>Fluxo de Caixa</b>
-                                        </li>
-                                        <li>
-                                            <b>Conciliação Bancária</b>
-                                        </li>
-                                        <li>
-                                            <b>EDI Bancário - CNAB/Febraban</b>
-                                        </li>
-                                    </ul>
-                                    <a href="http://t2ti.com/erp2/artigos/Financeiro.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o Bloco Financeiro</a>
-                                </td>
-                            </tr>
-                        </table>
-                        <hr />
-                    <h3>Bloco Contábil e Fiscal</h3> 
-                        <table width="100%">
-                            <tr>
-                                <td>
-                                <b>O Bloco Contábil e Fiscal é formado por oito módulos: </b>
-                                    <ul>
-                                        <li>
-                                        <b>     Contabilidade e Conciliação Contábil</b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Contabil_Conciliacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Contabilidade e Conciliação Contábil</a>
-                                        </li>
-                                        <li>
-                                            <b> Escrita Fiscal </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/EscritaFiscal.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Escrita Fiscal</a>
-                                        </li>
-                                        <li>
-                                            <b> SPED Contábil e Fiscal </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Sped.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo SPED Contábil e Fiscal</a>
-                                        </li>
-                                        <li>
-                                            <b> Controle Patrimonial </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Patrimonio.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle Patrimonial</a>
-                                        </li>
-                                        <li>
-                                        <b>     Controle de Orçamentos </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Orcamentos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Orçamentos</a>
-                                        </li>
-                                        <li>
-                                        <b>     EFD-Contribuições </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/EFD-Contribuicoes.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo EFD-Contribuições</a>
-                                        </li>
-                                        <li>
-                                            <b> Tributação </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Tributacao.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Tributação</a>
-                                        </li>
-                                        <li>
-                                            <b> Sintegra </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Sintegra.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Sintegra</a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <hr />
-                    <h3>Bloco Recursos Humanos</h3> 
-                        <table width="100%" >
-                            <tr>
-                                <td>
-                                <b>O Bloco Recursos Humanos é formado por três módulos: </b>
-                                    <ul>
-                                        <li>
-                                            <b>Folha de Pagamento</b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Folha_eSocial.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Folha de Pagamento</a>
-                                        </li>
-                                        <li>
-                                            <b>Ponto Eletrônico</b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Ponto.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Ponto Eletrônico</a>
-                                        </li>
-                                        <li>
-                                            <b>eSocial</b> <br />
-                                            <a href="/erp2/artigos/Folha_eSocial.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo eSocial</a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <hr />                      
-                    <h3>Bloco Suprimentos</h3> 
-                        <table width="100%">
-                            <tr>
-                                <td>
-                                <b>O Bloco Suprimentos é formado por seis módulos: </b>
-                                    <ul>
-                                        <li>
-                                            <b> Gestão de Compras </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Compras.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Compras</a>
-                                        </li>
-                                        <li>
-                                        <b>     Controle de Estoque </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Controle de Estoque</a>
-                                        </li>
-                                        <li>
-                                        <b>     Gestão de Contratos </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Contratos.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Gestão de Contratos</a>
-                                        </li>
-                                        <li>
-                                        <b>     Inventário </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/Estoque_Inventario.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo Inventário</a>
-                                        </li>
-                                        <li>
-                                        <b>     PCP - Controle de Produção </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/PCP.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo PCP - Controle de Produção</a>
-                                        </li>
-                                        <li>
-                                        <b>     WMS - Gerenciamento de Armazém </b> <br />
-                                            <a href="http://t2ti.com/erp2/artigos/WMS.pdf" target="_blank">Clique aqui e leia o Artigo T2Ti sobre o módulo WMS - Gerenciamento de Armazém</a>
-                                        </li>
-                                    </ul>
-                                </td>
-                            </tr>
-                        </table>
-                        <br />
-                </div>
-                        <h3>Forma de Desenvolvimento Delphi [Way we Developed using Delphi]</h3> 
-                        <hr />
-                        <img src="http://t2ti.com/images/erp/DataSnap.png" />
-                        <hr />
-                    <br />  
-                        O ERP Delphi foi desenvolvido em duas e três camadas. O usuário baixa a camada de visão para sua máquina e se conecta ao servidor de aplicaçoes DataSnap, 
-                        onde estarão armazenadas as classes de negócio. O banco de dados poderá residir na mesma máquina do servidor de aplicações ou em outro 
-                        servidor específico para o SGBD. 
-                        <br /><br />
-                        O acesso aos dados é feito por padrão com um ORM próprio (T2Ti ORM). Para acessar os bancos de dados utilizamos DBExpress, mas o ORM 
-						pode ser adaptado para funcionar com Firedac e Zeos.
-                        <br /><br />
-                        Parte da aplicação é feita com tecnologia Web (Loja Virtual) utilizando o uniGUI. 
-	<br /><br />
-  <i>
-[Delphi ERP was developed in two and three layers. The user downloads the view layer to his machine and connects to the DataSnap application server where the business classes are stored. The database may reside on the same machine as the application server or on another server specific to the DBMS.
-	<br /><br />
-Data access is done by default with an own ORM (T2Ti ORM). To access the databases we use DBExpress, but the ORM can be adapted to work with Firedac and Zeos.
-	<br /><br />
-Part of the application is made using Web technology (Loja Virtual) using uniGUI.]
-  </i>	
-</html>
+# Native Delphi sales workload: scaling results and reproduction
+
+This study measures sales CRUD operations executed through original T2Ti ORM and value objects using Delphi DBExpress and MySQL 8.4.11. The database is a 40-table foreign-key dependency closure of the author's 468-table MySQL model. Fixtures contain deterministic synthetic data. The accepted dataset comprises **58 configurations from eight series**, measured on 4 and 5 October 2026.
+
+## Source and scope
+
+This repository is a research branch of [RaoulBer/T2TiERP-2-Delphi](https://github.com/RaoulBer/T2TiERP-2-Delphi), forked from [Albert Eije's T2Ti ERP](https://github.com/alberteije/T2TiERP-2-Delphi). The base commit is [`277a36d`](https://github.com/alberteije/T2TiERP-2-Delphi/commit/277a36dea23ed2de1f651aa99cd7fb797743c576). Original application files remain in `Retaguarda`, `Frente de Caixa` and the supporting tool directories. The original [ERP description](https://github.com/alberteije/T2TiERP-2-Delphi/blob/277a36dea23ed2de1f651aa99cd7fb797743c576/README.md) documents its modules and architecture.
+
+Research additions are confined to the benchmark, infrastructure, reviewer, analysis, documentation and evidence paths. All 28 retained ERP dependency units match the base commit exactly. The benchmark uses frozen source snapshots; the full application and GUI workflows are outside the measured scope.
+
+## Principal results
+
+Throughput counts independently verified successful business operations. Latency quantiles describe successful operations only. Each configuration has one trial; ratios are descriptive, without confidence intervals or significance tests.
+
+| Comparison | Verified operations/s | Successful p95, ms | Measured failures | Estimated USD/h |
+|---|---:|---:|---|---:|
+| Applications: 1 → 4 hosts, CREATE | 46.034 → 139.966 | 1043.492 → 277.025 | 0 | 0.3903 → 0.9682 |
+| Applications: 1 → 4 hosts, READ | 28.757 → 428.980 | 4971.558 → 163.249 | 0 | 0.3903 → 0.9682 |
+| Read routing: 1 → 3 destinations | 221.227 → 253.679 | 916.948 → 689.965 | 0 | 1.3225 |
+| Multi-primary writes: 1 → 3 destinations, CREATE | 14.327 → 48.322 | 279.473 → 173.403 | 86.91% → 73.70% | 1.3225 |
+| Shared UPDATE: single → multi-primary | 89.730 → 69.852 | 809.801 → 286.948 | 29,519 multi-primary failures | 1.3225 |
+| Independent shards: 1 → 4, CREATE | 25.296 → 194.270 | 324.766 → 238.570 | 0 | 0.3825 → 1.5151 |
+
+Application and cluster comparisons use 32 total workers. Cluster comparisons retain three database members and four application hosts. Sharding uses weak scaling: eight workers, one application host and 100k orders per shard. Concurrency and shard READ operations time prepared, owned aggregates; application-scaling and cluster read routing time existing fixture orders. Rates from different series are not interchangeable.
+
+Read routing increased observed throughput by 14.7%, with application CPU near 100%. Multi-primary certification and deadlock failures reduced successful throughput. Shared-record arithmetic was verified on every replica, with no lost updates in the accepted observations. Shard capacity increased with proportional resources; physical host variation limits attribution to homogeneous scaling efficiency.
+
+[Complete results](docs/results.md), [all measurements](results/measurements.csv), [throughput figure](results/figures/throughput.png) and [cost analysis](docs/cost-analysis.md) provide intermediate configurations, CRUD coverage and resource observations. Cost values are captured on-demand estimates, not invoices. Retained storage was estimated at approximately USD4.70/month at the recorded observation.
+
+## Reproduce the analysis
+
+From a checkout, with Python and the pinned analysis dependency:
+
+```sh
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python scripts/analyze.py
+python3 scripts/validate_repository.py
+python3 reviewer/validate.py
+python3 scripts/validate_upstream.py
+python3 -m unittest discover -s reviewer -p 'test_*.py'
+```
+
+These commands regenerate six figures, the measurement CSV and the results and cost documents from [accepted inputs](evidence/accepted). They perform no cloud operations. Historical raw traces are not distributed; their checksums identify the observations underlying the accepted dataset.
+
+## Reproduce a measurement
+
+Requirements are a licensed Windows Delphi Win32 installation, the [pinned dependencies](benchmark/dependencies.json), Terraform and authenticated GCP CLI access. Build the [frozen native sources](benchmark/source-manifest.json) with `reviewer/build.ps1`. Copy [the configuration example](reviewer/config.example.json) to ignored `reviewer/config.json` and specify an independent project, resource prefix, bucket and input paths.
+
+```sh
+python3 reviewer/workflow.py configure --series read-targets --point 2 --operation READ
+```
+
+Use the printed directory in place of `RUN_ID`. Storage and workload have separate Terraform states:
+
+```sh
+python3 reviewer/workflow.py plan --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py apply --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py plan --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py apply --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py prepare --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py measure --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py collect --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py verify --run reviewer/runs/RUN_ID
+python3 reviewer/workflow.py destroy --run reviewer/runs/RUN_ID
+```
+
+Provisioning creates billable resources. `destroy` removes workload compute and networking while retaining evidence storage and its charges. The distributed scripts have offline validation, including retained native-observation checks. **Fresh Windows compilation and cloud execution of the refactored package remain unverified.** See [reproduction instructions](docs/reproducibility.md) for prerequisites, verification and state ownership.
+
+## Scope and evidence
+
+The measured path excludes GUI execution and stock/accounting controller workflows. All configurations use 60-second warmup, 180-second measurement and 30-second cooldown phases. Throughput uses the common worker interval, which may be shorter than 180 seconds. The medium-fixture READ32 point is excluded for lack of a common interval. Missing telemetry remains absent.
+
+[Study design](docs/study-design.md), [system and transactions](docs/system-and-workload.md), [methods](docs/experimental-methods.md) and [validation record](evidence/reproducibility.json) define the evidence boundaries. Software versions, timestamps and checksums are experimental metadata; Git records document revisions. Publication requires explicit approval.

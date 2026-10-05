@@ -1,0 +1,11 @@
+{
+  "project_id": "your-gcp-project",
+  "region": "europe-west3",
+  "zone": "europe-west3-c",
+  "prefix": "sales-review",
+  "bucket_name": "your-globally-unique-private-study-bucket",
+  "private_cidr": "10.88.0.0/24",
+  "windows_image": "projects/windows-cloud/global/images/family/windows-2025",
+  "native_inputs": "reviewer/inputs/native",
+  "dependency_inputs": "reviewer/inputs/dependencies"
+}

@@ -1,0 +1,502 @@
+{
+  "currency": "USD",
+  "compute_catalog_observed_utc": "2026-10-05T18:28:53.222895+00:00",
+  "storage_catalog_observed_utc": "2026-10-05T18:33:20.180632+00:00",
+  "eu_image_catalog_capture_date": "2026-10-04",
+  "selected_skus": [
+    {
+      "name": "services/6F81-5844-456A/skus/4AE8-2AF4-172B",
+      "skuId": "4AE8-2AF4-172B",
+      "description": "Storage PD Snapshot in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "PDSnapshot",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 59000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/7A7B-EA46-2897",
+      "skuId": "7A7B-EA46-2897",
+      "description": "Storage PD Capacity in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "PDStandard",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 48000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/7CF3-62F6-084E",
+      "skuId": "7CF3-62F6-084E",
+      "description": "Licensing Fee for Windows Server 2025 Datacenter Edition on VM",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "License",
+        "resourceGroup": "Google",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "global"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 46000000
+                }
+              }
+            ],
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "GLOBAL",
+        "regions": []
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/7D80-F9E4-6A44",
+      "skuId": "7D80-F9E4-6A44",
+      "description": "E2 Instance Ram running in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "RAM",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.h",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 3766020
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte hour",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 3865470566400
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/A490-493E-92CE",
+      "skuId": "A490-493E-92CE",
+      "description": "Storage Machine Image in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "MachineImage",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 60000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/B1B5-0BAA-CB31",
+      "skuId": "B1B5-0BAA-CB31",
+      "description": "Balanced PD Capacity in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "SSD",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 120000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/C921-088E-792A",
+      "skuId": "C921-088E-792A",
+      "description": "E2 Instance Core running in Frankfurt",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Compute",
+        "resourceGroup": "CPU",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "h",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 28103700
+                }
+              }
+            ],
+            "usageUnitDescription": "hour",
+            "baseUnit": "s",
+            "baseUnitDescription": "second",
+            "baseUnitConversionFactor": 3600
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    },
+    {
+      "name": "services/6F81-5844-456A/skus/80E5-E18F-9FA4",
+      "skuId": "80E5-E18F-9FA4",
+      "description": "Storage Machine Image in European Union",
+      "category": {
+        "serviceDisplayName": "Compute Engine",
+        "resourceFamily": "Storage",
+        "resourceGroup": "MachineImage",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 50000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-03T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west1"
+        ]
+      }
+    },
+    {
+      "name": "services/95FF-2EF5-5EA1/skus/F272-7933-F065",
+      "skuId": "F272-7933-F065",
+      "description": "Standard Storage Frankfurt",
+      "category": {
+        "serviceDisplayName": "Cloud Storage",
+        "resourceFamily": "Storage",
+        "resourceGroup": "RegionalStorage",
+        "usageType": "OnDemand"
+      },
+      "serviceRegions": [
+        "europe-west3"
+      ],
+      "pricingInfo": [
+        {
+          "summary": "",
+          "pricingExpression": {
+            "usageUnit": "GiBy.mo",
+            "displayQuantity": 1,
+            "tieredRates": [
+              {
+                "startUsageAmount": 0,
+                "unitPrice": {
+                  "currencyCode": "USD",
+                  "units": "0",
+                  "nanos": 23000000
+                }
+              }
+            ],
+            "usageUnitDescription": "gibibyte month",
+            "baseUnit": "By.s",
+            "baseUnitDescription": "byte second",
+            "baseUnitConversionFactor": 2875910101401600.0
+          },
+          "currencyConversionRate": 1,
+          "effectiveTime": "2026-10-05T07:00:00Z"
+        }
+      ],
+      "serviceProviderName": "Google",
+      "geoTaxonomy": {
+        "type": "REGIONAL",
+        "regions": [
+          "europe-west3"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    "https://cloudbilling.googleapis.com/v1/services/6F81-5844-456A/skus",
+    "https://cloudbilling.googleapis.com/v1/services/95FF-2EF5-5EA1/skus"
+  ],
+  "fleet_at_observation": {
+    "compute_usd_hour": 0.77702004,
+    "windows_usd_hour": 0.828,
+    "disk_usd_hour": 0.08516129032258064,
+    "nat_fixed_usd_hour": 0.0176,
+    "topology_fixed_usd_hour": 1.7077813303225806,
+    "roles": {
+      "application": 4,
+      "database": 4,
+      "sdk_coordinator": 1
+    },
+    "usd_day_excluding_retention_and_variable_charges": 40.986751927741935,
+    "idle_sdk_compute_windows_disk_usd_hour": 0.19123878580645162,
+    "retained_images_snapshot_usd_month": 3.96147642660141,
+    "gcs_versions_storage_usd_month_excluding_soft_deleted": 0.7416964830746874,
+    "known_fixed_usd_hour": 1.714102799287199,
+    "known_fixed_usd_day": 41.13846718289278
+  },
+  "retained_storage": [
+    {
+      "resource": "t2ti-delphi13-ce-20261002",
+      "gib": 18.442157328128815,
+      "usd_gib_month": 0.05,
+      "price_capture": "2026-10-04 EU catalog",
+      "usd_month": 0.9221078664064408
+    },
+    {
+      "resource": "t2ti-delphi13-ce-20261002-win64",
+      "gib": 18.99806374311447,
+      "usd_gib_month": 0.05,
+      "price_capture": "2026-10-04 EU catalog",
+      "usd_month": 0.9499031871557236
+    },
+    {
+      "resource": "t2ti-delphi13-ce-win32-vc1451-20261004",
+      "gib": 19.784985840320587,
+      "usd_gib_month": 0.06,
+      "price_capture": "2026-10-05T18:28:53.222895+00:00",
+      "usd_month": 1.1870991504192352
+    },
+    {
+      "resource": "t2ti-sales-100k-overnight-20261004",
+      "gib": 15.294342756271362,
+      "usd_gib_month": 0.059,
+      "price_capture": "2026-10-05T18:28:53.222895+00:00",
+      "usd_month": 0.9023662226200103
+    }
+  ],
+  "bucket_inventory": {
+    "retrieved_utc": "2026-10-05T18:30:15.754189+00:00",
+    "bucket": {
+      "name": "t2ti-build-inputs-614348302416-27e5ab20",
+      "location": "EUROPE-WEST3",
+      "storageClass": "STANDARD",
+      "softDeletePolicy": {
+        "retentionDurationSeconds": "0"
+      }
+    },
+    "objects_including_noncurrent_versions": 3489,
+    "bytes_by_storage_class": {
+      "STANDARD": 34625675417
+    },
+    "exclusions": [
+      "soft-deleted objects",
+      "metadata overhead",
+      "operation/transfer costs"
+    ]
+  },
+  "variable_charges": {
+    "nat_data_processing_usd_gib": 0.045,
+    "same_zone_internal_benchmark_traffic_usd_gib": 0,
+    "unquantified": [
+      "Internet egress",
+      "GCS requests/transfer/soft deletion",
+      "logging",
+      "other project resources"
+    ]
+  }
+}

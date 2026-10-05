@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "file": ".archive/repository/evidence/brownfield-consolidated-benchmark-cost-report-complete.json",
+      "sha256": "2a1403685aca733ae03e08a88be590f5b2de398bb3444a183b48df2a30302363"
+    },
+    {
+      "file": ".archive/repository/evidence/brownfield-database-horizontal-reads-complete.json",
+      "sha256": "16edad8c194c1e6d78c6a5ade0b014cabb52154438fef009c2984b24861aa067"
+    },
+    {
+      "file": ".archive/repository/evidence/brownfield-database-horizontal-writes-complete.json",
+      "sha256": "1852a1fea4ecdc74aeac7781c7e8a091327527a3c6fde688c91ffedfd1d13d7a"
+    },
+    {
+      "file": ".archive/repository/evidence/brownfield-database-contention-complete.json",
+      "sha256": "adb64b84f93983498a1452a5572b44ae410d82c63588d484dc99c80578696760"
+    },
+    {
+      "file": ".archive/repository/evidence/brownfield-database-sharding-complete.json",
+      "sha256": "55a2479f256b2bca520dd5d5cd2f365f7b1055ba75faac65bd3c30fadab9c172"
+    },
+    {
+      "file": ".archive/repository/evidence/brownfield-unified-horizontal-complete.json",
+      "sha256": "1d443bb9e900e3e45bdfddcb0706ad153dda9d1bbb9725b776506e04e9b00852"
+    },
+    {
+      "file": ".archive/repository/evidence/benchmark-machine-teardown-20261005.json",
+      "sha256": "59a85b3a0d67eded759c1cbfeb3de8af07d3a94442ea81cb0f1aed1cb359ea2d"
+    },
+    {
+      "file": "evidence/accepted/infrastructure.json",
+      "sha256": "81506eb51152c8555bad7c4248ea9d8995421b1a50738259ae4cb5fd98474a2a"
+    },
+    {
+      "file": "evidence/accepted/measurements.json",
+      "sha256": "f98cb9c1b68c15d91de7cdafa0c4cadd8ebf4ca86d2770e4ab81105b79f04c4e"
+    },
+    {
+      "file": "evidence/accepted/pricing.json",
+      "sha256": "bfec0a849106621d0a34228e046b86deb83942b76bf073b1584ff78289ffb6c8"
+    },
+    {
+      "file": ".local/benchmark-final-report-20261005/results-and-cost.json",
+      "sha256": "a3403d187334f93505597a46d6e5f4efc7a4267aa2b100d16ee1c576f662fe09"
+    },
+    {
+      "file": ".local/benchmark-final-report-20261005/concurrency-resources.csv",
+      "sha256": "471504850b2a463545aba2d5d63e2332598358f89bb1e7df2a841bacf8841292"
+    },
+    {
+      "file": ".local/benchmark-results-20261005/database-sharding/per-node-metrics.csv",
+      "sha256": "0e21eef98f0ed5ff7ef709bf0290a221c1a0af7ba80211503a663b10888f473a"
+    },
+    {
+      "file": ".archive/manifest.json",
+      "sha256": "98c67e508ae01aea430c7e32f63a96bbf52c27c8b54b97ffa70ade9f18c50ce2"
+    }
+  ],
+  "raw_sources": [
+    {
+      "path": ".local/benchmark-results-20261004/results.json",
+      "sha256": "2afd93f073c43bed63c22ee8a887681be822a55cbced8e993abaa7c4c30a6ba4"
+    },
+    {
+      "path": ".local/benchmark-results-20261004/sales-crud-direct/results.json",
+      "sha256": "c76108ea90f462b94367af5f9d6d871678730c0b7bfde4c79bb18dcf61d7dc58"
+    },
+    {
+      "path": ".local/benchmark-results-20261004/sales-crud-medium/results.json",
+      "sha256": "35718a3306e2bfcff56ce3da8a6dd8deaeb02d5b69811095506cd9ff9a4d0684"
+    },
+    {
+      "path": ".local/benchmark-results-20261004/sales-horizontal-app-vms/results.json",
+      "sha256": "f9c457057d560485e65be9e4e505790ac7b1b23aa65586f43d2a13b3065d927c"
+    },
+    {
+      "path": ".local/benchmark-results-20261005/database-horizontal-reads/results.json",
+      "sha256": "a28f6a00e93d0620efd51f72f895ade0bcb7e9bcabe916b046f80bdcb268246e"
+    },
+    {
+      "path": ".local/benchmark-results-20261005/database-horizontal-writes/write-combined/results.json",
+      "sha256": "d73b70362439261541326a3b402cee95714543f1b867f63ba2d3fe2df3c42836"
+    },
+    {
+      "path": ".local/benchmark-results-20261005/database-contention/results.json",
+      "sha256": "ddefadbf51e0a8290a179892ded37e321850857cf0f3d52b965f62447867ee58"
+    },
+    {
+      "path": ".local/benchmark-results-20261005/database-sharding/results.json",
+      "sha256": "ff001a51d5fb94b6f03bdbd1d1443cf22761d9a7c796983ff350bbf76af60c4a"
+    }
+  ],
+  "archive_manifest": ".archive/manifest.json"
+}

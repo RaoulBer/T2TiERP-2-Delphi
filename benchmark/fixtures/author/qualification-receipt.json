@@ -1,0 +1,307 @@
+{
+    "schema_version":  1,
+    "status":  "GENUINE_SALE_SIX_SCENARIOS_40_BASELINE_QUALIFIED",
+    "failure_code":  null,
+    "native_qualification":  true,
+    "cleanup":  true,
+    "observer":  {
+                     "baseline40":  {
+                                        "ALMOXARIFADO":  {
+                                                             "count":  0,
+                                                             "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                         },
+                                        "ATIVIDADE_FOR_CLI":  {
+                                                                  "count":  1,
+                                                                  "logical_rows_sha256":  "da83995c33e519aadb1ef267cf879e9db430b52c3b6604070c99c2f2a7fb05d9"
+                                                              },
+                                        "CARGO":  {
+                                                      "count":  1,
+                                                      "logical_rows_sha256":  "4a536101464a62ff1e6f6be9c29cfc0379753343978db34e993974ceb205ebbc"
+                                                  },
+                                        "CLIENTE":  {
+                                                        "count":  1,
+                                                        "logical_rows_sha256":  "10758746db6034c0e141a23718917d5f2b114f9b2a3271be8ce5fb6278530b56"
+                                                    },
+                                        "COLABORADOR":  {
+                                                            "count":  1,
+                                                            "logical_rows_sha256":  "85ea8ae69e73ee656e1bdce3010117e44d7bca93ecdc5c66aac99191993f238e"
+                                                        },
+                                        "COMISSAO_PERFIL":  {
+                                                                "count":  0,
+                                                                "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                            },
+                                        "CONTADOR":  {
+                                                         "count":  0,
+                                                         "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                     },
+                                        "CONVENIO":  {
+                                                         "count":  0,
+                                                         "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                     },
+                                        "EMPRESA":  {
+                                                        "count":  1,
+                                                        "logical_rows_sha256":  "426fed444d028b67f5b6f1b2677a1a8daecfb08b3a0823e4bb372144a7ad5e71"
+                                                    },
+                                        "ESTADO_CIVIL":  {
+                                                             "count":  1,
+                                                             "logical_rows_sha256":  "da83995c33e519aadb1ef267cf879e9db430b52c3b6604070c99c2f2a7fb05d9"
+                                                         },
+                                        "FPAS":  {
+                                                     "count":  0,
+                                                     "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                 },
+                                        "NIVEL_FORMACAO":  {
+                                                               "count":  1,
+                                                               "logical_rows_sha256":  "b15ec9f154ce67a074ae93329edee9414ec047df9d849e78c6f42b9c1110e318"
+                                                           },
+                                        "NOTA_FISCAL_MODELO":  {
+                                                                   "count":  1,
+                                                                   "logical_rows_sha256":  "ae3e59c39baa655c3e3590e8a8320ea8cb3568691773333e8a45250d710714e1"
+                                                               },
+                                        "NOTA_FISCAL_TIPO":  {
+                                                                 "count":  1,
+                                                                 "logical_rows_sha256":  "78ab8cd0c50bfffe5132c1ed52d2e15962c1e7bd5a05fd91ac6cf09cbd5c2f7d"
+                                                             },
+                                        "PESSOA":  {
+                                                       "count":  1,
+                                                       "logical_rows_sha256":  "c723d2096ce566bc9fa2e871e82be258844494a3bc69f2ff2ed69e6410ee835b"
+                                                   },
+                                        "PESSOA_ENDERECO":  {
+                                                                "count":  1,
+                                                                "logical_rows_sha256":  "3ca128fa44215ae09888ba6fa7e405d01228ddb089e302c72c61e53e349c4e17"
+                                                            },
+                                        "PESSOA_FISICA":  {
+                                                              "count":  1,
+                                                              "logical_rows_sha256":  "b8c0db1d8f89743a3966af623b93641ae9ab01d7ff129ba3fe235a89ca17558d"
+                                                          },
+                                        "PESSOA_JURIDICA":  {
+                                                                "count":  0,
+                                                                "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                            },
+                                        "PRODUTO":  {
+                                                        "count":  1,
+                                                        "logical_rows_sha256":  "297ae3f7d9881937ba0518ec092fbf43e5a42e1a53bf5ab135de14789a3abdb2"
+                                                    },
+                                        "PRODUTO_GRUPO":  {
+                                                              "count":  1,
+                                                              "logical_rows_sha256":  "da83995c33e519aadb1ef267cf879e9db430b52c3b6604070c99c2f2a7fb05d9"
+                                                          },
+                                        "PRODUTO_MARCA":  {
+                                                              "count":  0,
+                                                              "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                          },
+                                        "PRODUTO_SUBGRUPO":  {
+                                                                 "count":  1,
+                                                                 "logical_rows_sha256":  "e8d66ea56b928e8b26086fcd4d1851d5f51a7f99c6ab95c583bbc50bdc88195a"
+                                                             },
+                                        "SETOR":  {
+                                                      "count":  1,
+                                                      "logical_rows_sha256":  "5c12a5d6760003abc0a01ec957bd0bea9e7995fc327527ba983399c81ceff5f1"
+                                                  },
+                                        "SINDICATO":  {
+                                                          "count":  0,
+                                                          "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                      },
+                                        "SITUACAO_COLABORADOR":  {
+                                                                     "count":  1,
+                                                                     "logical_rows_sha256":  "53508319567506f279bbea619c947ca6bdd424da8f8458d03ee09ef3efb8ad34"
+                                                                 },
+                                        "SITUACAO_FOR_CLI":  {
+                                                                 "count":  1,
+                                                                 "logical_rows_sha256":  "da83995c33e519aadb1ef267cf879e9db430b52c3b6604070c99c2f2a7fb05d9"
+                                                             },
+                                        "TIPO_ADMISSAO":  {
+                                                              "count":  0,
+                                                              "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                          },
+                                        "TIPO_COLABORADOR":  {
+                                                                 "count":  1,
+                                                                 "logical_rows_sha256":  "da83995c33e519aadb1ef267cf879e9db430b52c3b6604070c99c2f2a7fb05d9"
+                                                             },
+                                        "TRANSPORTADORA":  {
+                                                               "count":  1,
+                                                               "logical_rows_sha256":  "2e4d5c3801c4d75d29dc7adb8062dd4447ef437ad874b7addd975ba293666188"
+                                                           },
+                                        "TRIBUT_GRUPO_TRIBUTARIO":  {
+                                                                        "count":  0,
+                                                                        "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                                    },
+                                        "TRIBUT_ICMS_CUSTOM_CAB":  {
+                                                                       "count":  0,
+                                                                       "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                                   },
+                                        "TRIBUT_OPERACAO_FISCAL":  {
+                                                                       "count":  1,
+                                                                       "logical_rows_sha256":  "b9d7d4b4589cc76808568c23cbb81282b0295dc6970c72fb8055a8d41aca701d"
+                                                                   },
+                                        "UNIDADE_PRODUTO":  {
+                                                                "count":  1,
+                                                                "logical_rows_sha256":  "04d60b4b03047ce498218d2310ded24a50da18dfb2a2a1f8bcedf1a590a10239"
+                                                            },
+                                        "VENDA_CABECALHO":  {
+                                                                "count":  1,
+                                                                "logical_rows_sha256":  "a941cffef9283079e948aec44e7040afabce5eb791eae3de0ea47f82bc609d51"
+                                                            },
+                                        "VENDA_COMISSAO":  {
+                                                               "count":  1,
+                                                               "logical_rows_sha256":  "de21a8c6b57946ca057b4161ef150493c0f6be1b9b8a6342fb5539f47c7c00c7"
+                                                           },
+                                        "VENDA_CONDICOES_PAGAMENTO":  {
+                                                                          "count":  1,
+                                                                          "logical_rows_sha256":  "558365f58d4dd7ab9d14736015d203cc2b575c36621146e9907d2c94a3dde7b3"
+                                                                      },
+                                        "VENDA_DETALHE":  {
+                                                              "count":  5,
+                                                              "logical_rows_sha256":  "7442a1221cce652195b153f7617575668dd39da41f94e02465990777a89e7d91"
+                                                          },
+                                        "VENDA_ORCAMENTO_CABECALHO":  {
+                                                                          "count":  0,
+                                                                          "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                                      },
+                                        "VENDA_ROMANEIO_ENTREGA":  {
+                                                                       "count":  0,
+                                                                       "logical_rows_sha256":  "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+                                                                   },
+                                        "VENDEDOR":  {
+                                                         "count":  1,
+                                                         "logical_rows_sha256":  "cd2b4429d0e41a1753e670c248e7bcb7a30333ba9a0f54d4a757d02789364654"
+                                                     }
+                                    },
+                     "controller":  "BYPASSED_ACBR_DFM_SESSION_CONTEXT",
+                     "generated_id_evidence":  "Actual worker ORM-return events bound to source plus fresh committed visibility or rollback absence; SQL observer does not witness uncommitted INSERT calls.",
+                     "native_execution":  "PARENT_MUST_BIND_ACTUAL_PROCESS_AND_CLEANUP",
+                     "null_mapping_loss":  [
+                                               {
+                                                   "column":  "ID_VENDA_ROMANEIO_ENTREGA",
+                                                   "id":  3,
+                                                   "mapping":  "DB_NULL_TO_ORIGINAL_VO_ZERO_OR_EMPTY",
+                                                   "table":  "VENDA_CABECALHO"
+                                               },
+                                               {
+                                                   "column":  "ID_VENDA_ORCAMENTO_CABECALHO",
+                                                   "id":  3,
+                                                   "mapping":  "DB_NULL_TO_ORIGINAL_VO_ZERO_OR_EMPTY",
+                                                   "table":  "VENDA_CABECALHO"
+                                               },
+                                               {
+                                                   "column":  "HORA_SAIDA",
+                                                   "id":  3,
+                                                   "mapping":  "DB_NULL_TO_ORIGINAL_VO_ZERO_OR_EMPTY",
+                                                   "table":  "VENDA_CABECALHO"
+                                               },
+                                               {
+                                                   "column":  "NUMERO_FATURA",
+                                                   "id":  3,
+                                                   "mapping":  "DB_NULL_TO_ORIGINAL_VO_ZERO_OR_EMPTY",
+                                                   "table":  "VENDA_CABECALHO"
+                                               }
+                                           ],
+                     "scenarios":  [
+                                       {
+                                           "duration_ns":  27710000,
+                                           "fresh_after_connection":  49,
+                                           "fresh_before_connection":  47,
+                                           "outcome":  "INJECTED_PARTIAL_CREATE_ROLLED_BACK",
+                                           "scenario":  "SALE_PARTIAL_CREATE_ROLLBACK"
+                                       },
+                                       {
+                                           "duration_ns":  61649900,
+                                           "fresh_after_connection":  55,
+                                           "fresh_before_connection":  52,
+                                           "outcome":  "COMMITTED",
+                                           "scenario":  "SALE_CREATE"
+                                       },
+                                       {
+                                           "duration_ns":  22111200,
+                                           "fresh_after_connection":  61,
+                                           "fresh_before_connection":  57,
+                                           "outcome":  "OBSERVED",
+                                           "scenario":  "SALE_READ"
+                                       },
+                                       {
+                                           "duration_ns":  71395000,
+                                           "fresh_after_connection":  66,
+                                           "fresh_before_connection":  63,
+                                           "outcome":  "COMMITTED",
+                                           "scenario":  "SALE_UPDATE"
+                                       },
+                                       {
+                                           "duration_ns":  31969000,
+                                           "fresh_after_connection":  72,
+                                           "fresh_before_connection":  68,
+                                           "outcome":  "HEADER_ONLY_NO_ACTION_REJECTED",
+                                           "scenario":  "SALE_HEADER_ONLY_REJECT"
+                                       },
+                                       {
+                                           "duration_ns":  170027000,
+                                           "fresh_after_connection":  77,
+                                           "fresh_before_connection":  74,
+                                           "outcome":  "COMPENSATED_AGGREGATE_DELETED",
+                                           "scenario":  "SALE_DELETE"
+                                       }
+                                   ],
+                     "status":  "SIX_SALE_ORACLES_VALIDATED"
+                 },
+    "timing_windows":  [
+                           {
+                               "actual_start_monotonic_ns":  454903260500,
+                               "duration_ns":  27710000,
+                               "worker_start_event_utc":  "2026-10-04T08:33:03.283Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:03.311Z",
+                               "scenario":  "SALE_PARTIAL_CREATE_ROLLBACK",
+                               "actual_end_monotonic_ns":  454930970500,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_PARTIAL_CREATE_ROLLBACK",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           },
+                           {
+                               "actual_start_monotonic_ns":  459588027000,
+                               "duration_ns":  61649900,
+                               "worker_start_event_utc":  "2026-10-04T08:33:07.967Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:08.029Z",
+                               "scenario":  "SALE_CREATE",
+                               "actual_end_monotonic_ns":  459649676900,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_CREATE",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           },
+                           {
+                               "actual_start_monotonic_ns":  464759478200,
+                               "duration_ns":  22111200,
+                               "worker_start_event_utc":  "2026-10-04T08:33:13.139Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:13.162Z",
+                               "scenario":  "SALE_READ",
+                               "actual_end_monotonic_ns":  464781589400,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_READ",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           },
+                           {
+                               "actual_start_monotonic_ns":  469613439100,
+                               "duration_ns":  71395000,
+                               "worker_start_event_utc":  "2026-10-04T08:33:17.993Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:18.064Z",
+                               "scenario":  "SALE_UPDATE",
+                               "actual_end_monotonic_ns":  469684834100,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_UPDATE",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           },
+                           {
+                               "actual_start_monotonic_ns":  474838807900,
+                               "duration_ns":  31969000,
+                               "worker_start_event_utc":  "2026-10-04T08:33:23.219Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:23.250Z",
+                               "scenario":  "SALE_HEADER_ONLY_REJECT",
+                               "actual_end_monotonic_ns":  474870776900,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_HEADER_ONLY_REJECT",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           },
+                           {
+                               "actual_start_monotonic_ns":  482415330100,
+                               "duration_ns":  170027000,
+                               "worker_start_event_utc":  "2026-10-04T08:33:30.795Z",
+                               "worker_terminal_event_utc":  "2026-10-04T08:33:30.965Z",
+                               "scenario":  "SALE_DELETE",
+                               "actual_end_monotonic_ns":  482585357100,
+                               "attempt_id":  "5343572a8f6e4ab3ac9d92cae979e484:SALE_DELETE",
+                               "utc_semantics":  "UTC at worker event emission; QPC operation start precedes started-event emission; no provider-window equivalence"
+                           }
+                       ]
+}

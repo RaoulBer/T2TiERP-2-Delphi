@@ -1,0 +1,119 @@
+{
+  "name": "shards-weak",
+  "warmup_seconds": 60,
+  "measurement_seconds": 180,
+  "cooldown_seconds": 30,
+  "trials_per_configuration": 1,
+  "database": "MySQL 8.4.11",
+  "buffer_pool_bytes": 2147483648,
+  "app_machine_type": "e2-standard-2",
+  "db_machine_type": "e2-standard-2",
+  "orders_per_node": 100000,
+  "routing": "customer-owned",
+  "worker_model": "weak",
+  "eligible_targets_key": "write_targets",
+  "shared_orders": 0,
+  "worker_profile": "synchronized",
+  "read_semantics": "worker-owned freshly prepared aggregate",
+  "fixture_seed": 17,
+  "application_disk_type": "pd-standard",
+  "database_disk_type": "pd-balanced",
+  "configurations": [
+    {
+      "topology_point": 1,
+      "operation": "CREATE",
+      "application_vms": 1,
+      "database_vms": 1,
+      "workers": 8,
+      "orders": 100000
+    },
+    {
+      "topology_point": 1,
+      "operation": "READ",
+      "application_vms": 1,
+      "database_vms": 1,
+      "workers": 8,
+      "orders": 100000
+    },
+    {
+      "topology_point": 1,
+      "operation": "UPDATE",
+      "application_vms": 1,
+      "database_vms": 1,
+      "workers": 8,
+      "orders": 100000
+    },
+    {
+      "topology_point": 1,
+      "operation": "DELETE",
+      "application_vms": 1,
+      "database_vms": 1,
+      "workers": 8,
+      "orders": 100000
+    },
+    {
+      "topology_point": 2,
+      "operation": "CREATE",
+      "application_vms": 2,
+      "database_vms": 2,
+      "workers": 16,
+      "orders": 200000
+    },
+    {
+      "topology_point": 2,
+      "operation": "READ",
+      "application_vms": 2,
+      "database_vms": 2,
+      "workers": 16,
+      "orders": 200000
+    },
+    {
+      "topology_point": 2,
+      "operation": "UPDATE",
+      "application_vms": 2,
+      "database_vms": 2,
+      "workers": 16,
+      "orders": 200000
+    },
+    {
+      "topology_point": 2,
+      "operation": "DELETE",
+      "application_vms": 2,
+      "database_vms": 2,
+      "workers": 16,
+      "orders": 200000
+    },
+    {
+      "topology_point": 4,
+      "operation": "CREATE",
+      "application_vms": 4,
+      "database_vms": 4,
+      "workers": 32,
+      "orders": 400000
+    },
+    {
+      "topology_point": 4,
+      "operation": "READ",
+      "application_vms": 4,
+      "database_vms": 4,
+      "workers": 32,
+      "orders": 400000
+    },
+    {
+      "topology_point": 4,
+      "operation": "UPDATE",
+      "application_vms": 4,
+      "database_vms": 4,
+      "workers": 32,
+      "orders": 400000
+    },
+    {
+      "topology_point": 4,
+      "operation": "DELETE",
+      "application_vms": 4,
+      "database_vms": 4,
+      "workers": 32,
+      "orders": 400000
+    }
+  ]
+}

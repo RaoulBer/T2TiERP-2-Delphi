@@ -1,0 +1,36 @@
+{
+  "status": "VERIFIED_ZERO_MACHINES_DISKS_NAT_AND_RESERVED_IPS",
+  "started_utc": "2026-10-05T18:44:01.022772+00:00",
+  "completed_utc": "2026-10-05T18:44:43.605063+00:00",
+  "remaining_instances": [],
+  "remaining_disks": [],
+  "remaining_routers": [],
+  "remaining_addresses": [],
+  "remaining_forwarding_rules": [],
+  "preserved_machine_images": [
+    {
+      "name": "t2ti-delphi13-ce-20261002",
+      "id": "8111342742800591840",
+      "status": "READY"
+    },
+    {
+      "name": "t2ti-delphi13-ce-20261002-win64",
+      "id": "265950000107593485",
+      "status": "READY"
+    },
+    {
+      "name": "t2ti-delphi13-ce-win32-vc1451-20261004",
+      "id": "3563645148609643500",
+      "status": "READY"
+    }
+  ],
+  "preserved_database_snapshot": {
+    "name": "t2ti-sales-100k-overnight-20261004",
+    "id": "1250100902257196962",
+    "status": "READY"
+  },
+  "preserved_bucket": {
+    "name": "t2ti-build-inputs-614348302416-27e5ab20",
+    "location": "EUROPE-WEST3"
+  }
+}

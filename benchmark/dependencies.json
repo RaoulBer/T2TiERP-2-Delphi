@@ -1,0 +1,35 @@
+{
+  "files": {
+    "mysql.zip": {
+      "sha256": "a492371d687d2bab088b0062581144a0044b8964baefdf4faa579292b423d25c",
+      "acquisition_url": "https://cdn.mysql.com/Downloads/MySQL-8.4/mysql-8.4.11-winx64.zip"
+    },
+    "odbc.zip": {
+      "sha256": "1b2a5f12d9640246d343c657c18d750a1a12a3694ff0f38bc4247f809e7bb834",
+      "acquisition_url": "https://cdn.mysql.com/Downloads/Connector-ODBC/8.0/mysql-connector-odbc-noinstall-8.0.46-win32.zip"
+    },
+    "shell.zip": {
+      "sha256": "f55a077b7332933dbf55ec56a938be3f1c7d24f0db2cc997d5c16aa170996aa6",
+      "acquisition_url": "https://cdn.mysql.com/Downloads/MySQL-Shell/mysql-shell-8.4.10-windows-x86-64bit.zip"
+    },
+    "router.zip": {
+      "sha256": "de2d14cbf40f8377a06fc059642b28132a46d3b5ae92d50961634090e4e11a3c",
+      "acquisition_url": "https://cdn.mysql.com/Downloads/MySQL-Router/mysql-router-8.4.10-winx64.zip"
+    },
+    "vc_redist.x86.exe": {
+      "sha256": "f0bab33a302b3cdb2e11113760d016f54fd3d2632c65ba7834fac4f0abd7f1a3",
+      "acquisition_url": "https://aka.ms/vs/17/release/vc_redist.x86.exe"
+    },
+    "vc_redist.x64.exe": {
+      "sha256": "843068991daaa1f73ad9f6239bce4d0f6a07a51f18c37ea2a867e9beca71295c",
+      "acquisition_url": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+    }
+  },
+  "policy": {
+    "integrity": "sha256",
+    "redistributable_signature_required": true,
+    "substitution_allowed": false,
+    "alias_urls_mutable": true,
+    "pinned_local_input_required_if_download_differs": true
+  }
+}

@@ -1,0 +1,4 @@
+# Preserve the exact bytes of hash-bound upstream and model inputs on every OS.
+benchmark/source/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+benchmark/driver-source/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+benchmark/fixtures/author/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

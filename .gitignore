@@ -1,0 +1,27 @@
+.DS_Store
+/blueprints/
+.local/
+.venv/
+__pycache__/
+*.pyc
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform/
+.env
+.env.*
+!*.example
+*.pem
+*.key
+# Runtime secrets, raw payloads and authoritative runner/control state are external.
+/runtime/
+/raw-evidence/
+
+# Historical documents, intermediate evidence and workspace files.
+/.archive/
+
+# Reviewer credentials, licensed inputs and execution output
+/reviewer/config.json
+/reviewer/inputs/
+/reviewer/runs/
+/infrastructure/terraform.tfvars.json

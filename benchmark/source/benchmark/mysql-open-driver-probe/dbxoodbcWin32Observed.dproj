@@ -1,0 +1,54 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{231C9234-5031-45D5-A6E7-2D318775910B}</ProjectGuid>
+    <ProjectVersion>20.4</ProjectVersion>
+    <MainSource>generated-compat\dbxoodbc.dpr</MainSource>
+    <Config Condition="'$(Config)'==''">Debug</Config>
+    <Platform Condition="'$(Platform)'==''">Win32</Platform>
+    <Base>True</Base><AppType>Library</AppType>
+    <TargetedPlatforms>1</TargetedPlatforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+    <Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+    <Base_Win32>true</Base_Win32><CfgParent>Base</CfgParent><Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+    <Cfg_2>true</Cfg_2><CfgParent>Base</CfgParent><Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+    <Cfg_2_Win32>true</Cfg_2_Win32><CfgParent>Cfg_2</CfgParent><Cfg_2>true</Cfg_2><Base>true</Base>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Base_Win32)'!=''">
+    <DCC_Namespace>System;System.Win;Winapi;Data;Datasnap;$(DCC_Namespace)</DCC_Namespace>
+    <DCC_UnitAlias>DBXJSON=System.JSON;</DCC_UnitAlias>
+    <DCC_UnitSearchPath>$(BDS)\lib\win32\release;.\generated-compat;.\vendor\source\packages;.\vendor\source\driver;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+    <DCC_IncludePath>.\vendor\source\driver;$(DCC_IncludePath)</DCC_IncludePath><DCC_DcuOutput>.\Win32\ObservedDebug\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>.\Win32\ObservedDebug\obj</DCC_ObjOutput>
+    <DCC_ExeOutput>.\Win32\ObservedDebug</DCC_ExeOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+    <DCC_Namespace>System;System.Win;Winapi;Data;Datasnap;$(DCC_Namespace)</DCC_Namespace>
+    <DCC_UnitAlias>DBXJSON=System.JSON;</DCC_UnitAlias>
+    <DCC_UnitSearchPath>$(BDS)\lib\win32\release;.\generated-compat;.\vendor\source\packages;.\vendor\source\driver;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+    <DCC_IncludePath>.\vendor\source\driver;$(DCC_IncludePath)</DCC_IncludePath><DCC_DcuOutput>.\Win32\ObservedDebug\dcu</DCC_DcuOutput>
+    <DCC_ObjOutput>.\Win32\ObservedDebug\obj</DCC_ObjOutput>
+    <DCC_ExeOutput>.\Win32\ObservedDebug</DCC_ExeOutput>
+  </PropertyGroup>
+  <ItemGroup><DelphiCompile Include="$(MainSource)"><MainSource>MainSource</MainSource></DelphiCompile>
+    <BuildConfiguration Include="Debug"><Key>Cfg_2</Key><CfgParent>Base</CfgParent></BuildConfiguration>
+    <BuildConfiguration Include="Base"><Key>Base</Key></BuildConfiguration>
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+    <Borland.ProjectType/>
+    <BorlandProject>
+      <Delphi.Personality><Source><Source Name="MainSource">generated-compat\dbxoodbc.dpr</Source></Source></Delphi.Personality>
+      <Platforms><Platform value="Win32">True</Platform></Platforms>
+      <ModelSupport>False</ModelSupport>
+    </BorlandProject>
+    <ProjectFileVersion>12</ProjectFileVersion>
+  </ProjectExtensions>
+  <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" />
+</Project>

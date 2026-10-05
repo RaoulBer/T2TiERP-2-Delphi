@@ -1,0 +1,80 @@
+{
+  "status": "OFFLINE_VALIDATED_FRESH_WINDOWS_AND_CLOUD_REPLAY_UNVERIFIED",
+  "source_files": 149,
+  "recorded_configurations": 58,
+  "checks": {
+    "source_sha256": "PASS",
+    "accepted_measurements_unchanged": "PASS",
+    "terraform_validate": {
+      "storage": "PASS",
+      "workload": "PASS",
+      "warnings": 0
+    },
+    "powershell_parse": {
+      "scripts": 10,
+      "status": "PASS",
+      "helper_token_equivalence": 6
+    },
+    "offline_tests": {
+      "passed": 14
+    },
+    "native_capture_replay": {
+      "tables": 40,
+      "before": "MATCHED",
+      "after": "MATCHED",
+      "foreign_keys": "MATCHED",
+      "output_equivalence": "PASS"
+    },
+    "committed_crud_replay": {
+      "operations": [
+        "CREATE",
+        "READ",
+        "UPDATE",
+        "DELETE"
+      ],
+      "result": "COMMITTED_SALES_AND_BASELINE_VERIFIED",
+      "verified_original_vo_rows": 35308,
+      "output_equivalence": "PASS"
+    },
+    "analysis": {
+      "accepted_points": 58,
+      "figures": 6,
+      "cloud_operations": 0
+    },
+    "javascript_parse": "PASS",
+    "clean_checkout": {
+      "analysis": "PASS",
+      "validation": "PASS",
+      "offline_tests": 14,
+      "private_input_dependencies": 0
+    },
+    "contention_replay": {
+      "result": "ATOMIC_SHARED_INCREMENT_COMMITS_NO_LOST_UPDATES_AND_ALL_REPLICA_CONTENT_VERIFIED",
+      "committed_updates_all_phases": 20186,
+      "replicas": 3,
+      "output_equivalence": "PASS"
+    },
+    "archive_preservation": {
+      "cleanup_snapshot_files": 220,
+      "status": "PASS",
+      "fork_transition_files": 241
+    },
+    "fork_ancestry": {
+      "status": "PASS",
+      "base_commit": "277a36dea23ed2de1f651aa99cd7fb797743c576",
+      "original_files": 10548,
+      "unchanged_original_files": 10547,
+      "modified_upstream_paths": [
+        "README.md"
+      ],
+      "identical_erp_dependency_units": 28
+    },
+    "accepted_data_equivalence": "PASS"
+  },
+  "cloud_resources_provisioned": 0,
+  "native_build_executed": false,
+  "fresh_measurement_executed": false,
+  "source_manifest_sha256": "ef1c8c9b23f72986b95ac9b7f6233c02cffffd90f99ba7b3478b713f44cf6073",
+  "dependency_manifest_sha256": "c9c72db772b6e840171ac48fa6daf25aee31464bb5ca80ac3aa5137f5af4123e",
+  "validated_at_utc": "2026-10-05T21:07:01.212476+00:00"
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "scope": "SALE_CONTRACT_AND_INDEPENDENT_ORACLE_ONLY_NOT_RUNTIME_QUALIFIED",
+  "schema_sha256": "5fb9355cc6d9b2842d629c9409dd5f1f94ab12b2eecbcdf5acc30fcaa1192901",
+  "export_receipt_sha256": "19a7608b0ee4d001e78c0b1abad67b6cf3ec6e14ab34ebfbc78e597cfb4d22d6",
+  "selected_path": "Original TT2TiORM over original TVendaCabecalhoVO/TVendaDetalheVO/TVendaComissaoVO; concrete production controller bypass disclosed",
+  "read_path": "Original shallow TT2TiORM.Consultar on each original VO, header and explicit own detail/commission reads; no generic related-VO traversal, reduced VO, or substitute SQL business read",
+  "controller_limitation": "Original concrete Controller/ACBr/UDataModule/DFM/session/dataset/JSON context not compiled or concurrency-qualified; no fake controller unit",
+  "ownership": "Parent-held immutable run/worker/attempt ledger: genuine ORM returned LAST_INSERT_ID values, independently observed exact row relationships. Header/commission IDs>=2 and detail IDs>=6, Int32 only, no reuse. No worker marker wildcard exclusions/deletes. READ targets a previously admitted owned aggregate for this qualification contract.",
+  "observer": "Independent SELECT-only fresh connection/process per before/after barrier. Full actual column values with NULL/empty/zero distinctions, PK/FK relations, totals and known40-table baseline fingerprints. Preserve every known baseline row; separately account for exactly validated owned-ID deltas.",
+  "records": "Exactly one attempt_started and one attempt_terminal per attempt; immutable run/worker/host/process/source/native identity; actual monotonic ns start/end/duration; business duration includes commit/rollback. Observer latency is separate. No hidden retry. Incomplete or failed compensation is failure, never successful DELETE.",
+  "scenarios": [
+    {
+      "id": "SALE_CREATE",
+      "kind": "primary",
+      "before": "absent",
+      "after": "five_lines",
+      "outcome": "COMMITTED",
+      "steps": [
+        "INSERT_HEADER",
+        "INSERT_COMMISSION",
+        "INSERT_FIVE_DETAILS",
+        "COMMIT"
+      ],
+      "effects": "Header/customer/seller/invoice/payment refs, five generated detail IDs, one generated commission ID; totals/commission match original controller effect"
+    },
+    {
+      "id": "SALE_READ",
+      "kind": "primary",
+      "before": "five_lines",
+      "after": "five_lines",
+      "outcome": "OBSERVED",
+      "steps": [
+        "READ_HEADER_ORIGINAL_VO",
+        "READ_OWN_DETAILS_ORIGINAL_VO",
+        "READ_OWN_COMMISSION_ORIGINAL_VO",
+        "END_FRESH_READ_TRANSACTION"
+      ],
+      "effects": "All26/11/8 mapped fields returned; exact original rows, FK relationships and multiplicity; full ERP association traversal is not qualified"
+    },
+    {
+      "id": "SALE_UPDATE",
+      "kind": "primary",
+      "before": "five_lines",
+      "after": "six_lines_updated",
+      "outcome": "COMMITTED",
+      "steps": [
+        "UPDATE_HEADER",
+        "UPDATE_OWN_COMMISSION",
+        "UPDATE_OWN_DETAIL",
+        "INSERT_OWN_DETAIL",
+        "COMMIT"
+      ],
+      "effects": "Header observation and at least one existing detail quantity change; one new generated detail; commission value reflects subtotal-discount and total commission. Commission-upsert-existing branch exercised; absent-commission insert branch unqualified"
+    },
+    {
+      "id": "SALE_DELETE",
+      "kind": "primary",
+      "before": "six_lines_updated",
+      "after": "absent",
+      "outcome": "COMPENSATED_AGGREGATE_DELETED",
+      "steps": [
+        "EXCLUIR_OWN_DETAILS",
+        "EXCLUIR_OWN_COMMISSION",
+        "EXCLUIR_OWN_HEADER",
+        "COMMIT"
+      ],
+      "effects": "Explicit compensating aggregate original ORM Excluir, not production Controller.Exclui; no baseline/unowned IDs touched"
+    },
+    {
+      "id": "SALE_PARTIAL_CREATE_ROLLBACK",
+      "kind": "fault_oracle",
+      "before": "absent",
+      "after": "absent",
+      "outcome": "INJECTED_PARTIAL_CREATE_ROLLED_BACK",
+      "steps": [
+        "INSERT_HEADER",
+        "INSERT_COMMISSION",
+        "INSERT_TWO_DETAILS",
+        "INJECT_DUPLICATE_OWN_DETAIL_ID",
+        "ROLLBACK"
+      ],
+      "effects": "Fault reached only after genuine header, commission and two successful detail ORM inserts; fresh independent connection proves every recorded generated ID absent; never retry or reuse IDs"
+    },
+    {
+      "id": "SALE_HEADER_ONLY_REJECT",
+      "kind": "fault_oracle",
+      "before": "six_lines_updated",
+      "after": "six_lines_updated",
+      "outcome": "HEADER_ONLY_NO_ACTION_REJECTED",
+      "steps": [
+        "EXCLUIR_HEADER_ONLY",
+        "OBSERVE_PARENT_FK_REJECTION",
+        "ROLLBACK"
+      ],
+      "effects": "Original header-only Excluir semantics rejects referenced aggregate; independent full values preserved; distinct from compensated primary DELETE. Actual constraint/error observation required, no invented numeric error field"
+    }
+  ],
+  "native_execution": "NOT_EXECUTED",
+  "benchmarks": "NOT_IMPLEMENTED_BY_THIS_LEAF",
+  "constraint_evidence": "Actual database exception class, nonempty UTF8 message hash/bytes and PARENT_FK_NO_ACTION token classification, accompanied by preserved-state observer proof. Classification is not structured SQLSTATE/numeric-error proof; native constraint metadata and actual execution remain required."
+}
