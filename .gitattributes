@@ -2,3 +2,11 @@
 benchmark/source/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
 benchmark/driver-source/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
 benchmark/fixtures/author/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+
+/Retaguarda/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"Frente de Caixa/**" -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"T2Ti ERP - Data Pump/**" -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"T2Ti ERP - Exportador/**" -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"T2Ti ERP - Gerador - Copia/**" -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+"T2Ti ERP - Gerador/**" -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+/limpa.bat -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab

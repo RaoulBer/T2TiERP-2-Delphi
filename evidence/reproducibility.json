@@ -46,7 +46,8 @@
       "analysis": "PASS",
       "validation": "PASS",
       "offline_tests": 14,
-      "private_input_dependencies": 0
+      "private_input_dependencies": 0,
+      "upstream_ancestry": "PASS"
     },
     "contention_replay": {
       "result": "ATOMIC_SHARED_INCREMENT_COMMITS_NO_LOST_UPDATES_AND_ALL_REPLICA_CONTENT_VERIFIED",
@@ -57,7 +58,8 @@
     "archive_preservation": {
       "cleanup_snapshot_files": 220,
       "status": "PASS",
-      "fork_transition_files": 241
+      "fork_transition_files": 241,
+      "history_bundle": "PASS"
     },
     "fork_ancestry": {
       "status": "PASS",
@@ -69,12 +71,18 @@
       ],
       "identical_erp_dependency_units": 28
     },
-    "accepted_data_equivalence": "PASS"
+    "accepted_data_equivalence": "PASS",
+    "source_security_scan": {
+      "status": "UPSTREAM_SECRET_MATERIAL_PRESENT",
+      "inventory": "evidence/source-security.json",
+      "upstream_private_key_locations": 6,
+      "private_account_identifiers_removed_from_maintained_tooling": true
+    }
   },
   "cloud_resources_provisioned": 0,
   "native_build_executed": false,
   "fresh_measurement_executed": false,
   "source_manifest_sha256": "ef1c8c9b23f72986b95ac9b7f6233c02cffffd90f99ba7b3478b713f44cf6073",
   "dependency_manifest_sha256": "c9c72db772b6e840171ac48fa6daf25aee31464bb5ca80ac3aa5137f5af4123e",
-  "validated_at_utc": "2026-10-05T21:07:01.212476+00:00"
+  "validated_at_utc": "2026-10-05T21:13:37.129182+00:00"
 }

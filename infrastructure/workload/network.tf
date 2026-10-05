@@ -41,4 +41,3 @@ resource "google_compute_firewall" "iap" {
     ports    = ["3389"]
   }
 }
-

@@ -1,0 +1,75 @@
+{
+  "status": "SOURCE_SECRET_MATERIAL_PRESENT",
+  "scan_method": "PATTERN_MATCHING",
+  "scanned_at_utc": "2026-10-05T21:10:30.691079+00:00",
+  "base_commit": "277a36dea23ed2de1f651aa99cd7fb797743c576",
+  "working_files_scanned": 10788,
+  "reachable_history_blobs_scanned": 8385,
+  "findings": [
+    {
+      "path": "Frente de Caixa/PAF-ECF-SN/Chaves/priv_key.pem",
+      "line": 1,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Frente de Caixa/PAF-ECF-SN/DataModule/UDataModule.pas",
+      "line": 76,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Frente de Caixa/PAF-ECF-SN/DataModule/__history/UDataModule.pas.~4~",
+      "line": 78,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Frente de Caixa/PAF-ECF/Chaves/priv_key.pem",
+      "line": 1,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Frente de Caixa/PAF-ECF/DataModule/UDataModule.pas",
+      "line": 76,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Frente de Caixa/PAF-ECF/DataModule/__history/UDataModule.pas.~4~",
+      "line": 78,
+      "classification": "PRIVATE_KEY",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Retaguarda/Cliente/Loja Virtual/APPIDS.INC",
+      "line": 7,
+      "classification": "LITERAL_CREDENTIAL_CANDIDATE",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "Retaguarda/Cliente/Loja Virtual/ChatRoomDemo/ChatRoomServerContainer.pas",
+      "line": 56,
+      "classification": "LITERAL_CREDENTIAL_CANDIDATE",
+      "origin": "ORIGINAL_ERP",
+      "credential_validity": "NOT_TESTED"
+    },
+    {
+      "path": "benchmark/source/benchmark/mysql-open-driver-probe/vendor/ChangesLog.Txt",
+      "line": 1376,
+      "classification": "LITERAL_CREDENTIAL_CANDIDATE",
+      "origin": "THIRD_PARTY_DRIVER",
+      "credential_validity": "NOT_TESTED"
+    }
+  ],
+  "private_runtime_inputs_tracked": false,
+  "publication": "BLOCKED"
+}

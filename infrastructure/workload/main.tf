@@ -10,4 +10,3 @@ locals {
     { for i in range(var.database_count) : "db-${i + 1}" => "database" }
   )
 }
-

@@ -5,4 +5,3 @@ resource "google_storage_bucket" "study" {
   public_access_prevention    = "enforced"
   force_destroy               = false
 }
-

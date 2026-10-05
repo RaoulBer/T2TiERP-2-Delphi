@@ -8,6 +8,8 @@ This repository is a research branch of [RaoulBer/T2TiERP-2-Delphi](https://gith
 
 Research additions are confined to the benchmark, infrastructure, reviewer, analysis, documentation and evidence paths. All 28 retained ERP dependency units match the base commit exactly. The benchmark uses frozen source snapshots; the full application and GUI workflows are outside the measured scope.
 
+The original application contains signing-key material and credential examples. Their locations are recorded in the [source security inventory](evidence/source-security.json); these files are outside the measured workload.
+
 ## Principal results
 
 Throughput counts independently verified successful business operations. Latency quantiles describe successful operations only. Each configuration has one trial; ratios are descriptive, without confidence intervals or significance tests.

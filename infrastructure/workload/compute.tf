@@ -25,4 +25,3 @@ resource "google_compute_instance" "node" {
   }
   depends_on = [google_compute_router_nat.study]
 }
-

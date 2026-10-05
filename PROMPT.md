@@ -4,7 +4,7 @@
 
 Maintain the distributed replay scripts, research documentation, accepted measurements and local analysis described in [README.md](README.md). [Study design](docs/study-design.md) defines the experimental scope. [TASKS.md](TASKS.md) records completion status.
 
-Use single-agent execution. Publication and upstream pushes require explicit user approval. Cloud provisioning requires an explicit execution request. Reviewer provisioning uses independent run-local Terraform state. Use independent Terraform state for reproduction.
+Use single-agent execution. Local preservation branches are not publication inputs. Publication and upstream pushes require explicit user approval. Cloud provisioning requires an explicit execution request. Reviewer provisioning uses independent run-local Terraform state. Use independent Terraform state for reproduction.
 
 ## Preservation
 

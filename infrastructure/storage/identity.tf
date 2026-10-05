@@ -14,4 +14,3 @@ resource "google_storage_bucket_iam_member" "create" {
   role   = "roles/storage.objectCreator"
   member = "serviceAccount:${google_service_account.study.email}"
 }
-
